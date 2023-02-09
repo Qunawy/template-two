@@ -518,7 +518,7 @@ margin: 30px 0  ;
   display:flex;
   position: absolute;
   margin: 80px auto 0;
-  grid-gap: 200px;
+  grid-gap: 100px;
 
   }
 .footer-item p{
