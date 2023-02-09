@@ -5,8 +5,6 @@
 }
 body{
   font-family: 'PT Sans', sans-serif;
-  perspective: 50px;
-
 }
 :root{  
   --maincolor:#7b5244;
@@ -519,9 +517,9 @@ margin: 30px 0  ;
 .footers-items{
   display:flex;
   position: absolute;
-  margin-top: 80px ;
-  padding: 0 50px;
-  grid-gap: 100px;
+  margin: 80px auto 0;
+  grid-gap: 200px;
+
   }
 .footer-item p{
   color: gray;
@@ -529,7 +527,7 @@ margin: 30px 0  ;
   line-height: 1.7;
 }
 .footer-item-1 img:nth-child(3){
-  margin:0 20px;
+  margin: 0 20px;
 }
 .footer-item h2{
   color: #fff;
@@ -548,8 +546,8 @@ color: #fff;
 padding-left: 1px;
 }
 form {
-    position: relative;
-  }
+  position: relative;
+}
 form i {
     position: absolute;
     right: 5px ;
@@ -557,10 +555,10 @@ form i {
     color: #fff;
     font-size: 30px;
     cursor: pointer;
-  }
+}
 form i:hover{
     color: var(--maincolor);
-  }
+}
 .footer-item .input{
   background-color: #000;
   border-width:0 0 1px 0 ;
@@ -584,6 +582,6 @@ form i:hover{
 .section-footer span {
   position: absolute;
   color: grey;
-  bottom: 30px;
-  left: 40px;
+  bottom: -90px;
+  left: -100px;
 }
