@@ -298,8 +298,9 @@ margin: 0 30px;
 {
   background-size: cover;
   transition: transform .2s;
+  overflow:hidden;
 }
-.discount-item:hover{
+.discount-item:hover img{
   transform: scale(1.1);
 }
 .discount-item{
